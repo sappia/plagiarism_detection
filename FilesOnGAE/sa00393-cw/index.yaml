@@ -1,0 +1,10 @@
+indexes:
+- kind: Plagiarism
+  properties:
+  - name: username
+  - name: instances
+  - name: windowsize
+  - name: overlapsize
+  - name: work
+  - name: userfile
+  - name: matches

@@ -1,0 +1,19 @@
+{% extends "_base.htm" %}
+
+{% block title %}
+	Results
+{% endblock %}
+
+{% block pageblock %}
+
+	<div id="up">
+		<h2>Thank you {{ data }} for using our system.<br/><br/></h2>
+	</div>
+	
+	<div id="down">
+		<h2>Plagiarism results are being computed. This may take few minutes. 
+		Please check your results in the below link in few minutes time<br/><br/></h2>
+		<a href="http://sa00393-cw.appspot.com/results?uname={{ data }}">Results</a>
+	</div>
+
+{% endblock %}

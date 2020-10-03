@@ -1,0 +1,16 @@
+application: sa00393-cw
+version: 2
+runtime: python27 # needed to set up the correct runtime environment
+api_version: 1
+threadsafe: true # needed for python27
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: index.app
+  
+libraries:
+- name: jinja2
+  version: latest

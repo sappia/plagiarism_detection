@@ -1,0 +1,22 @@
+{% extends "_base.htm" %}
+
+{% block title %}
+	Results
+{% endblock %}
+
+{% block pageblock %}
+	
+	<div id="up">
+		<h2>Your results:<br/><br/></h2>
+		{% if note %}
+		<h3 style="color: #0101DF">
+			{{ note }}
+		</h3>
+		{% elif result %}
+			<h3 style="color: #0101DF">Plagiarism matches for your suspicious file:<br/><br/></h3>
+			<img src="http://chart.apis.google.com/chart?cht=p&chs=350x100&chco=FF0000{{ result }}"
+			class="displayed" alt="Graph: No Plagiarism found." align="center"/>			
+		{% endif %}
+	</div>
+
+{% endblock %}

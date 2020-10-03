@@ -1,0 +1,60 @@
+/* CSS layout */
+
+body {
+	text-align: justify;
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #0101DF;
+}
+
+h1, h1 a, h2, h2 a, h3, { 
+	text-decoration: none;
+	font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #0101DF;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 1.8em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+IMG.displayed{ 
+	display: block;
+	margin-left: 200px;
+}
+
+#page {
+	background: #CEECF5;
+}
+
+#up {
+	margin-left: 10px;
+}
+
+#down{
+	margin-left: 300px;
+}
+
+#footer p {
+	clear: both;
+	padding: 10px 0 10px 0;
+	background: #58D3F7;
+	text-align: center; 
+	font-size:1em; 
+	color: #0101DF; 
+	height: 20px;
+}
+
+#footer a{
+	color: #0101DF;
+}
